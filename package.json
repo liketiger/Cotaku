@@ -6,7 +6,8 @@
     "start": "node server.js",
     "sass": "sass scss:public/css",
     "watch": "npm run sass -- --watch",
-    "build": "run-p sass server",
+    "build": "run-p sass start",
+    "build:dev": "run-p sass server",
     "server": "run-p watch dev",
     "dev": "nodemon server"
   },
