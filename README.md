@@ -2,8 +2,7 @@
 
 ## :book: 프로젝트 소개
 
-- 배포 : https://cotaku-oxkn.vercel.app/
-<br>
+- 배포 : https://cotaku-oxkn.vercel.app/<br>
 현재 Heroku에서 Vercel로 서비스를 변경하며 로그인/회원가입 기능에 문제가 있습니다.<br>
 해당 기능과 관련된 부분은 아래의 데모 영상을 참고해주세요.
 
