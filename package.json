@@ -8,7 +8,8 @@
     "watch": "npm run sass -- --watch",
     "build:dev": "run-p sass server",
     "server": "run-p watch dev",
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "build": "npm run sass"
   },
   "keywords": [],
   "author": "",
