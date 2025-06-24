@@ -274,6 +274,14 @@ const mainPageEventBinding = webtoon => {
 const Home = async () => {
   const { webtoon, mainCarousel } = await fetchData('/data/db.json');
 
+  if (!sessionStorage.getItem('hasRefreshed')) {
+    sessionStorage.setItem('hasRefreshed', 'true');
+
+    setTimeout(() => {
+      window.location.reload();
+    }, 100);
+  }
+
   const rank = webtoon.filter(item => item.category.includes('rank'));
   const free = webtoon.filter(item => item.category.includes('free'));
   const sunday = webtoon.filter(item => item.category.includes('sunday'));
