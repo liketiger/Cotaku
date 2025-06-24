@@ -2,7 +2,7 @@
 
 ## :book: 프로젝트 소개
 
-- 배포 : https://cotaku.herokuapp.com/
+- 배포 : https://cotaku-oxkn.vercel.app/
 
 |         | 미성년자 |  성인  |
 | :-----: | :------: | :----: |
@@ -23,7 +23,7 @@
 - 매끄러운 화면 전환을 위해 라우터를 구현하였습니다.
 - 로그인/회원가입 기능과 라우터를 구현하기 위해 express.js를 사용하였습니다.
 - 보안성 향샹과 서버 공간성 절약을 위해 JWT를 이용하여 로그인 / 회원가입 서비스를 구현하였습니다.
-- Heroku을 이용하여 배포하였습니다.
+- Vercel을 이용하여 배포하였습니다.
 
 ### 형상 관리 및 이슈 관리
 
@@ -101,7 +101,7 @@
 ## 🛠️ 기술 스택
 
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"> <br />
-<img src="https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white"> <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens"> <img src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"> <img src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white"> <img src="https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white"> <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens"> <img src="https://img.shields.io/badge/vercel-%23430098.svg?style=for-the-badge&logo=vercel&logoColor=white"> <img src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white"> <img src="https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
 ---
 
